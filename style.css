@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.search-box{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+.title {
+    height: 30px;
+    padding: 5px;
+}
+.btn {
+    margin: 5px 0;
+    height: 30px;
+}
+.result {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin: 5px 0;
+}
+.visible-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+.movie-box {
+    /* display: flex; */
+    box-shadow: 2px 2px 5px grey;
+    padding: 5px;
+}
+.more-detail{
+    /* display: flex; */
+    height: 40px;
+    width: 70px;
+}
+.movie-title {
+    font-weight: 700;
+    margin: 5px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-box {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movie-type {
+    display: flex;
+}
+.movie-year {
+    display: flex;
+}
+.movie-poster {
+}
+.close{
+    width: 70px;
+    height: 40px;    
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
